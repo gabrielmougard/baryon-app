@@ -1,0 +1,48 @@
+{
+  "name": "@gabrielmougard/baryon-app",
+  "description": "Baryon App",
+  "author": "Gabriel MOugard <gabriel.mougard@gmail.com>",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": "https://github.com/gabrielmougard/baryon-app/issues",
+  "homepage": "https://github.com/gabrielmougard/baryon-app",
+  "version": "1.0.0",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/",
+    "access": "restricted" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmougard/baryon-app.git"
+  },
+  "dependency-check": {
+    "ignore": [
+      "babel-register",
+      "@gabrielmougard/baryon-app-registry",
+      "less",
+      "prop-types",
+      "react",
+      "react-dom"
+    ]
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "eslint-config-mongodb-js": "^5.0.3",
+    "@gabrielmougard/baryon-app-registry": "^1.0.0",
+    "less": "*",
+    "mocha": "^7.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "peerDependencies": {
+    "babel-register": "^6.26.0",
+    "@gabrielmougard/baryon-app-registry": "^1.0.0",
+    "less": "*",
+    "prop-types": "^15.7.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
